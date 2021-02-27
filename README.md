@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/maksimdenis/site1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maksimdenis/site1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<html>
+    <body>
+        <header>
+            <a href="#price">Прайс-лист</a> <a href="#reviews">Отзывы</a> <a href="#photos">Фотографии</a>
+        </header>
+        <main>
+            <h1>Phone Repair<br/><img src="https://mars.algoritmika.org/uploads/2020/11/soldering-5117508_1280_0_1605278553.png" width="200px"/> <img src="https://mars.algoritmika.org/uploads/2020/11/tool-145376_1280_0_1605278554.png" width="200px"/> <img src="https://mars.algoritmika.org/uploads/2020/11/guy-1424911_1280_0_1605278554.png" width="200px" height="190px"/></h1>
+            <h2 id="price">Услуги и цены</h2>
+            <table>
+                <tr>
+                    <td>Название услуги</td>
+                    <td>Цена</td>
+                    <td>Срок выполнения</td>
+                </tr>
+                <tr>
+                    <td>Замена разъема <br/>зарядки</td>
+                    <td>750 руб.</td>
+                    <td>1 день</td>
+                </tr>
+                <tr>
+                    <td>Замена экрана</td>
+                    <td>от 1500 руб.</td>
+                    <td>от 2-х дней</td>
+                </tr>
+                <tr>
+                    <td>Перепрошивка</td>
+                    <td>от 1000 руб.</td>
+                    <td>1 день</td>
+                </tr>
+            </table>
+            <h2 id="reviews">Отзывы</h2>
+            <p><i>Наталья: </i>Сломался разъём для зарядки в новом iPhone. Починили оперативно. Была в офисе на Ремонтной улице.</p>
+            <p><i>Максим: </i>Нужно было срочно спасать телефон от вирусов. Думал всё — потеряю и данные и телефон. Спасибо ребятам на проспекте Прогресса — данные вытащили, телефон восстановили.</p>
+            <p><i>Юля: </i>Разбила экран планшета и сразу побежала в мастерскую на Ремонтной улице. Правда экрана для моей модели не оказалось в наличии, но ребята сделали заказ и телефон получила через три дня.</p>
+            <h2 id="photos">Фотографии</h2>
+            <img src="https://mars.algoritmika.org/uploads/2020/11/broken-3653897_1920_0_1605280313.jpg" height="250px"/> <img src="https://mars.algoritmika.org/uploads/2020/11/mobile-phone-2510529_1920_0_1605280314.jpg" height="250px"/><br/>
+            <img src="https://mars.algoritmika.org/uploads/2020/11/mobile-phone-4381895_1920_0_1605280472.jpg" width="790px"/>
+        </main>
+    </body>
+</html>
